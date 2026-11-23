@@ -1,0 +1,30 @@
+{
+  "description": "Send WhatsApp interactive buttons, lists and polls with Baileys (WhiskeySockets) \u2014 without touching Baileys' source",
+  "exports": {
+    ".": {
+      "import": "./baileys-buttons.mjs",
+      "require": "./baileys-buttons.cjs"
+    }
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "buttons",
+    "interactive",
+    "chatbot"
+  ],
+  "license": "MIT",
+  "main": "./baileys-buttons.cjs",
+  "module": "./baileys-buttons.mjs",
+  "name": "baileys-buttons",
+  "peerDependencies": {
+    "@whiskeysockets/baileys": ">=6.7.0 || >=7.0.0-rc"
+  },
+  "types": "./baileys-buttons.mjs",
+  "version": "1.3.3",
+  "files": [
+    "baileys-buttons.mjs",
+    "baileys-buttons.cjs",
+    "README.md"
+  ]
+}
